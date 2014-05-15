@@ -7,88 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FB1977319242189009E5FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB1977219242189009E5FCA /* Foundation.framework */; };
-		7FB1977619242189009E5FCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1977519242189009E5FCA /* main.m */; };
-		7FB1977A19242189009E5FCA /* Fraction.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FB1977919242189009E5FCA /* Fraction.1 */; };
-		7FB19782192421A9009E5FCA /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB19781192421A9009E5FCA /* Fraction.m */; };
+		7FB197AD19243C18009E5FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB197AC19243C18009E5FCA /* Foundation.framework */; };
+		7FB197B019243C19009E5FCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB197AF19243C19009E5FCA /* main.m */; };
+		7FB197B419243C19009E5FCA /* Square.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FB197B319243C19009E5FCA /* Square.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7FB1976D19242189009E5FCA /* CopyFiles */ = {
+		7FB197A719243C18009E5FCA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				7FB1977A19242189009E5FCA /* Fraction.1 in CopyFiles */,
+				7FB197B419243C19009E5FCA /* Square.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7FB1976F19242189009E5FCA /* Fraction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fraction; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FB1977219242189009E5FCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7FB1977519242189009E5FCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7FB1977819242189009E5FCA /* Fraction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fraction-Prefix.pch"; sourceTree = "<group>"; };
-		7FB1977919242189009E5FCA /* Fraction.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Fraction.1; sourceTree = "<group>"; };
-		7FB19780192421A9009E5FCA /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
-		7FB19781192421A9009E5FCA /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		7FB197A919243C18009E5FCA /* Square */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Square; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB197AC19243C18009E5FCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FB197AF19243C19009E5FCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FB197B219243C19009E5FCA /* Square-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Square-Prefix.pch"; sourceTree = "<group>"; };
+		7FB197B319243C19009E5FCA /* Square.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Square.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7FB1976C19242189009E5FCA /* Frameworks */ = {
+		7FB197A619243C18009E5FCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FB1977319242189009E5FCA /* Foundation.framework in Frameworks */,
+				7FB197AD19243C18009E5FCA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7FB1976619242189009E5FCA = {
+		7FB197A019243C18009E5FCA = {
 			isa = PBXGroup;
 			children = (
-				7FB1977419242189009E5FCA /* Fraction */,
-				7FB1977119242189009E5FCA /* Frameworks */,
-				7FB1977019242189009E5FCA /* Products */,
+				7FB197AE19243C18009E5FCA /* Square */,
+				7FB197AB19243C18009E5FCA /* Frameworks */,
+				7FB197AA19243C18009E5FCA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7FB1977019242189009E5FCA /* Products */ = {
+		7FB197AA19243C18009E5FCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FB1976F19242189009E5FCA /* Fraction */,
+				7FB197A919243C18009E5FCA /* Square */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FB1977119242189009E5FCA /* Frameworks */ = {
+		7FB197AB19243C18009E5FCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7FB1977219242189009E5FCA /* Foundation.framework */,
+				7FB197AC19243C18009E5FCA /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7FB1977419242189009E5FCA /* Fraction */ = {
+		7FB197AE19243C18009E5FCA /* Square */ = {
 			isa = PBXGroup;
 			children = (
-				7FB1977519242189009E5FCA /* main.m */,
-				7FB1977919242189009E5FCA /* Fraction.1 */,
-				7FB1977719242189009E5FCA /* Supporting Files */,
-				7FB19780192421A9009E5FCA /* Fraction.h */,
-				7FB19781192421A9009E5FCA /* Fraction.m */,
+				7FB197AF19243C19009E5FCA /* main.m */,
+				7FB197B319243C19009E5FCA /* Square.1 */,
+				7FB197B119243C19009E5FCA /* Supporting Files */,
 			);
-			path = Fraction;
+			path = Square;
 			sourceTree = "<group>";
 		};
-		7FB1977719242189009E5FCA /* Supporting Files */ = {
+		7FB197B119243C19009E5FCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7FB1977819242189009E5FCA /* Fraction-Prefix.pch */,
+				7FB197B219243C19009E5FCA /* Square-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -96,63 +91,62 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FB1976E19242189009E5FCA /* Fraction */ = {
+		7FB197A819243C18009E5FCA /* Square */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FB1977D19242189009E5FCA /* Build configuration list for PBXNativeTarget "Fraction" */;
+			buildConfigurationList = 7FB197B719243C19009E5FCA /* Build configuration list for PBXNativeTarget "Square" */;
 			buildPhases = (
-				7FB1976B19242189009E5FCA /* Sources */,
-				7FB1976C19242189009E5FCA /* Frameworks */,
-				7FB1976D19242189009E5FCA /* CopyFiles */,
+				7FB197A519243C18009E5FCA /* Sources */,
+				7FB197A619243C18009E5FCA /* Frameworks */,
+				7FB197A719243C18009E5FCA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Fraction;
-			productName = Fraction;
-			productReference = 7FB1976F19242189009E5FCA /* Fraction */;
+			name = Square;
+			productName = Square;
+			productReference = 7FB197A919243C18009E5FCA /* Square */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7FB1976719242189009E5FCA /* Project object */ = {
+		7FB197A119243C18009E5FCA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = a;
 			};
-			buildConfigurationList = 7FB1976A19242189009E5FCA /* Build configuration list for PBXProject "Fraction" */;
+			buildConfigurationList = 7FB197A419243C18009E5FCA /* Build configuration list for PBXProject "Square" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7FB1976619242189009E5FCA;
-			productRefGroup = 7FB1977019242189009E5FCA /* Products */;
+			mainGroup = 7FB197A019243C18009E5FCA;
+			productRefGroup = 7FB197AA19243C18009E5FCA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FB1976E19242189009E5FCA /* Fraction */,
+				7FB197A819243C18009E5FCA /* Square */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7FB1976B19242189009E5FCA /* Sources */ = {
+		7FB197A519243C18009E5FCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FB1977619242189009E5FCA /* main.m in Sources */,
-				7FB19782192421A9009E5FCA /* Fraction.m in Sources */,
+				7FB197B019243C19009E5FCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7FB1977B19242189009E5FCA /* Debug */ = {
+		7FB197B519243C19009E5FCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		7FB1977C19242189009E5FCA /* Release */ = {
+		7FB197B619243C19009E5FCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,20 +216,20 @@
 			};
 			name = Release;
 		};
-		7FB1977E19242189009E5FCA /* Debug */ = {
+		7FB197B819243C19009E5FCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fraction/Fraction-Prefix.pch";
+				GCC_PREFIX_HEADER = "Square/Square-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		7FB1977F19242189009E5FCA /* Release */ = {
+		7FB197B919243C19009E5FCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fraction/Fraction-Prefix.pch";
+				GCC_PREFIX_HEADER = "Square/Square-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -243,24 +237,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FB1976A19242189009E5FCA /* Build configuration list for PBXProject "Fraction" */ = {
+		7FB197A419243C18009E5FCA /* Build configuration list for PBXProject "Square" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FB1977B19242189009E5FCA /* Debug */,
-				7FB1977C19242189009E5FCA /* Release */,
+				7FB197B519243C19009E5FCA /* Debug */,
+				7FB197B619243C19009E5FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FB1977D19242189009E5FCA /* Build configuration list for PBXNativeTarget "Fraction" */ = {
+		7FB197B719243C19009E5FCA /* Build configuration list for PBXNativeTarget "Square" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FB1977E19242189009E5FCA /* Debug */,
-				7FB1977F19242189009E5FCA /* Release */,
+				7FB197B819243C19009E5FCA /* Debug */,
+				7FB197B919243C19009E5FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7FB1976719242189009E5FCA /* Project object */;
+	rootObject = 7FB197A119243C18009E5FCA /* Project object */;
 }
